@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand{
+    color: gray;
+    font-weight: bolder;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.all-propareey{
+    background-color: black;
+}
+.nav-item a{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+
+}
+.nav-item a:hover{
+    transition: .3s;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    
+}
+/* main opan............................................ */
+.main{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.img1{
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+border: 4px solid bisque;
+    height: 360px;
+    width: 240px;
+
+}
+.hi{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-style: italic;
+   word-spacing: 20px;
+   text-transform: uppercase;
+}
+.im{
+    color: brown;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.auto{
+    font-size: 30px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-weight: bolder;
+}
+.lorem{
+    color: dimgray;
+    text-transform: uppercase;
+}
+.child{
+    margin-left: 30px;
+}
+/* group opan................ */
+.group i{
+    font-size:25px;
+    padding: 10px;
+    color: blue;
+    transition: .3s;
+}
+.group i:hover{
+    border-radius: 80%;
+    box-shadow: 2px 2px 12px black;
+    color: red;
+    transform: scale(1.3);
+}
+/* section opan----------------------------------- */
+.section{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.img2{
+    height: 420px;
+}
+.childe:nth-child(2){
+    position: relative;
+margin-top: 60px;
+margin-left: -80px;
+}
+.name{
+    font-weight: bolder;
+}
+.age{
+    font-weight: bolder;
+}
+.addras{
+    font-weight: bolder;
+}
+.phone{
+    font-weight: bolder;
+}
+.email{
+    font-weight: bolder;
+}
+.hllo2{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.web{
+    margin-left: 20px;
+    color: orangered;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.ser{
+    margin-top: 20px;
+    letter-spacing: 10px;
+    color: brown;
+}
+.web2{
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+/* sarvice opan........................................ */
+.hold{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align: center;
+}
+.hold1{
+    border: 3px solid black;
+   margin-left: 10px;
+   border-radius: 20px;
+   padding: 25px;
+   margin: 10px;
+}
+.one:nth-child(1){
+    border: 2px solid black;
+   position: absolute;
+   margin-top: -20px;
+   margin-left: 50px;
+   border-radius: 50%;
+
+}
+/* work opan..................................................... */
+.work{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 220px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bhb{
+    margin-top: 10px;
+   margin-left: 100px;
+}
+/* going /.......................... */
+.gointo{
+    margin-top: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bolder;
+   color: orangered;
+   letter-spacing: 10px;
+}
+.lorem4{
+    font-weight: bolder;
+    word-spacing: 10px;
+}
+/* group2 opan................................ */
+.group2{
+    text-align: center;
+    font-size: 30px;
+}
+.group2 a{
+    color: black;
+    margin-top: 30px;
+    margin-left: 10px;
+    transform: scale(1.4);
+}
+.group2 a:hover{
+    color: brown;
+    margin-top: 35px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 50%;
+    transition: .3s;
+}
+/* davolapar//////////////////////// */
+.dav{
+    text-align: center;
+   font-weight: bolder;
+   margin-top: 40px;
+   color:orangered
+}
+.sattt{
+    text-align: center;
+    color: black;
+}
