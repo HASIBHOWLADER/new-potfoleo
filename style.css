@@ -5,7 +5,7 @@
     padding: 0px;
 }
 .navbar-brand{
-    color: gray;
+    color: red;
     font-weight: bolder;
     font-family: 'Edu VIC WA NT Beginner', cursive;
 }
@@ -16,7 +16,7 @@
     background-color: black;
 }
 .nav-item a{
-    color: gray;
+    color: red;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
 
@@ -42,6 +42,47 @@ border: 4px solid bisque;
     width: 240px;
 
 }
+/* dd opan............................ */
+
+.ddddd{
+    margin-top: 20px;
+    font-size: 70px;
+    transition: 3s;
+   
+    margin-top: 20px;
+    font-size: 70px;
+    animation-name: hasib;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hasib{
+    0%{
+color: gray;
+transform: rotate(50deg);
+
+    }
+    50%{
+color: brown;
+transform: rotate(120deg);
+transition: 3s;
+
+
+    }
+    100%{
+color: blue;
+transform: rotate(300deg);
+transition: 3s;
+
+
+    }
+
+
+
+}
+
+
+/* dd close............................... */
 .hi{
     margin-top: 30px;
     font-weight: bolder;
@@ -50,7 +91,7 @@ border: 4px solid bisque;
    text-transform: uppercase;
 }
 .im{
-    color: brown;
+    color: red;
     font-weight: bolder;
     text-transform: uppercase;
 }
